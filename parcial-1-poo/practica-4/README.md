@@ -1,4 +1,5 @@
 En esta practica 4, usamos todos los conocimientos aprendidos en las 3 practicas pasadas.
+Se utilizo PHP y XAMPP para la practica.
 Aqui, se arma un pequeño sistema donde se utilizan conceptos como encapsulamiento, herencia, polimorfismo,
 validacion y manejo de excepciones. 
 El sistema maneja 3 tipos de usuarios que comparten informacion basica (correo, nombre) a excepcion
