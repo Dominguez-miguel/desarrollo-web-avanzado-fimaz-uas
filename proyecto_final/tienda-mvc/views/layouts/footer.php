@@ -1,7 +1,7 @@
 </div>
 
 <footer class="bg-dark text-light py-3 mt-auto">
-    <div class="container mt-auto">
+    <div class="container">
         <div class="row">
 
             <div class="col-md-4">
