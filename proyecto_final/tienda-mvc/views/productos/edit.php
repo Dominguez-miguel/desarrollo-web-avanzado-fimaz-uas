@@ -2,7 +2,7 @@
 
 <h2>Editar producto</h2>
 
-<form acton="index.php?route=productos/update" method="POST">
+<form action="index.php?route=productos/update" method="POST">
     <input type="hidden" name="id" value="<?=  (int)$producto['id']; ?>">
 
     <div class="mb-3">
