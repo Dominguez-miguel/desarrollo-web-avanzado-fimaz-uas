@@ -33,7 +33,7 @@
         <input type="number" step="0.01" name="existencia" class="form-control" required>
     </div>
 
-    <button type="submit" class="btn btn-success">Guardar</label>
+    <button type="submit" class="btn btn-success">Guardar</button>
     <a href="index.php?route=productos" class="btn btn-secondary">Cancelar</a>
 </form>
 
