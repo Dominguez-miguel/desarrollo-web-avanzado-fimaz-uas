@@ -135,7 +135,7 @@
                 $stmt->bindParam(':descripcion', $data['descripcion']);
                 $stmt->bindParam(':precio_compra', $data['precio_compra']);
                 $stmt->bindParam(':precio_venta', $data['precio_venta']);
-                $stmt->bindParam('existencia', $data['existencia'], PDO::PARAM_INT);
+                $stmt->bindParam(':existencia', $data['existencia'], PDO::PARAM_INT);
                 $stmt->execute();
 
                 $this->conexion->commit();
