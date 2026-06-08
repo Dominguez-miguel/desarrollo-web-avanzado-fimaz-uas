@@ -18,7 +18,7 @@
             </div>
         </nav>
 
-        <div class="container mt-4">
+        <div class="container mt-4 flex-grow-1">
             <?php if (isset($_SESSION['success'])): ?>
                 <div class="alert alert-success">
                     <?= htmlspecialchars($_SESSION['success']); unset($_SESSION['success']); ?>
