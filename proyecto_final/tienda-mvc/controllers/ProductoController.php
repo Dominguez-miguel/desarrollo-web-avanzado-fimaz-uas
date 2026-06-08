@@ -22,7 +22,7 @@
             }
 
             if (!isset($_SESSION['admin'])) {
-                header('Location : index.php?route=login');
+                header('Location: index.php?route=login');
                 exit;
             }
         }
@@ -77,7 +77,7 @@
             if ((float)$data['precio_compra'] < 0 || (float)$data['precio_venta'] < 0
             || (int)$data['existencia'] < 0) {
                 $_SESSION['error'] = 'No se permiten valres negativos.';
-                header('Location: index.php=?route=productos/create');
+                header('Location: index.php?route=productos/create');
                 exit;
             }
 
